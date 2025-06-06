@@ -116,7 +116,7 @@ Search `\\wsl.localhost` in your ***Windows Explorer*** to see your Ubuntu direc
 ![image](https://github.com/user-attachments/assets/cd8e8cd3-f057-450a-b1a2-a90ca10aa3a6)
 
 ### Telegram Bot
-Search you `Node ID` here with `/check` here: https://t.me/gensyntrackbot 
+Search you `Node ID` here with `/math` here: https://t.me/gensynImpek_bot
 * `Node-ID` is near your Node name
 
 ![image](https://github.com/user-attachments/assets/2946ddf4-f6ef-4201-b6a0-cb5f16fb4cec)
