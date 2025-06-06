@@ -1,6 +1,6 @@
 # Gensyn Protocol
 Gensyn - Testnet Setup and Tutorial for Running Gensyn on a GPU or CPU VPS.<br><br>
-![1](assets/Screenshot_182.png)<br>
+![1](assets/Screenshot_181.png)<br>
 Untuk Tutorial Bahasa Indonesia, kunjungi [Youtube KajiJP - Tutorial Gensyn Bahasa Indonesia](https://cloud.vast.ai/?ref_id=62897&creator_id=62897&name=PyTorch%20(Vast)) <br><br>
 
 # Run RL Swarm (Testnet) Node
@@ -40,7 +40,7 @@ apt update && apt install -y wget unzip && wget https://github.com/kajijp/gensyn
 ### Choose installer
 - Choose option 1 to run using **GPU-VPS** (recommended).
 - Choose option 2 to run using **CPU-VPS**.<br><br>
-![2](assets/Screenshot_172.png)
+![2](assets/Screenshot_182.png)
 > ⚠️ **IMPORTANT:** if you run using GPU-VPS, the minimum GPU is RTX 3090 with CUDA 12.7 Version.  
 > For affordable and reliable GPU VPS, we recommend using [Vast.ai](https://cloud.vast.ai/?ref_id=62897&creator_id=62897&name=PyTorch%20(Vast)) with PyTorch as default setting.
 
@@ -52,7 +52,7 @@ apt update && apt install -y wget unzip && wget https://github.com/kajijp/gensyn
 ## 5) Login
 **1- You have to receive `Waiting for userData.json to be created...` in logs**
 
-![image](assets/Screenshot_182.png)
+![image](assets/Screenshot_183.png)
 
 **2- Open login page in browser**
 * **Local PC:** `http://localhost:3000/`
@@ -69,7 +69,7 @@ apt update && apt install -y wget unzip && wget https://github.com/kajijp/gensyn
 
 **3- Login with your preferred method**
 
-![image](assets/Screenshot_182.png)
+![image](assets/Screenshot_184.png)
 
 * After login, your terminal starts installation.
 
@@ -77,14 +77,14 @@ apt update && apt install -y wget unzip && wget https://github.com/kajijp/gensyn
 * Enter your `HuggingFace` access token you've created when it prompted.
 * This will need `2GB` upload bandwidth for each model you train, you can pass it by entering `N`.
 
-![image](https://github.com/user-attachments/assets/11c3a798-49c2-4a87-9e0b-359f3378c9e2)
+![image](assets/Screenshot_185.png)
 
 ---
 
 ### Node Name
 * Now your node started running, Find your name after word `Hello`, like mine is `whistling hulking armadillo` as in the image below (You can use `CTRL+SHIFT+F` to search Hello in terminal)
 
-![image](https://github.com/user-attachments/assets/a1abdb1a-aa11-407f-8e5b-abe7d0a6b0f3)
+![image](assets/Screenshot_186.png)
 
 ---
 
@@ -113,13 +113,13 @@ Search `\\wsl.localhost` in your ***Windows Explorer*** to see your Ubuntu direc
 * Math (GSM8K dataset): https://dashboard-math.gensyn.ai/
 * Math Hard (DAPO-Math 17K dataset): https://dashboard-math-hard.gensyn.ai/
 
-![image](https://github.com/user-attachments/assets/cd8e8cd3-f057-450a-b1a2-a90ca10aa3a6)
+![image](assets/Screenshot_187.png)
 
 ### Telegram Bot
 Search you `Node ID` here with `/math` here: https://t.me/gensynImpek_bot
 * `Node-ID` is near your Node name
 
-![image](https://github.com/user-attachments/assets/2946ddf4-f6ef-4201-b6a0-cb5f16fb4cec)
+![image](assets/Screenshot_188.png)
 
 * ⚠️ If receiving `EVM Wallet: 0x0000000000000000000000000000000000000000`, your `onchain-participation` is not being tracked and you have to Install with `New Email` and ***Delete old `swarm.pem`***
 
