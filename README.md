@@ -185,7 +185,7 @@ cp ~/swarm.pem ./swarm.pem
 * If you had any local changes, you have to do it again.
 
 ### 3- Re-run Node
-Head back to [4) Run the swarm](https://github.com/kajijp/gensyn-protocol/blob/main/README.md#choose-installer) and re-run Node.
+Head back to [Run the swarm](https://github.com/kajijp/gensyn-protocol/blob/main/README.md#choose-installer) and re-run Node.
 
 ---
 
