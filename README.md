@@ -34,7 +34,11 @@ OR
 # Running on Linux
 ### Clone this repo & extrac to local
 ```
-apt update && apt install -y wget unzip && wget https://github.com/kajijp/gensyn-protocol/archive/refs/heads/main.zip && unzip main.zip && mv gensyn-protocol-main gensyn-protocol && cd gensyn-protocol && chmod +x setup.sh && ./setup.sh
+apt update && apt install -y wget unzip && wget https://github.com/kajijp/gensyn-protocol/archive/refs/heads/main.zip && unzip main.zip && mv gensyn-protocol-main gensyn-protocol && cd gensyn-protocol
+```
+### Running setup.sh
+```
+chmod +x setup.sh && ./setup.sh
 ```
 
 ### Choose installer
